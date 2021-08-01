@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 
 T = 60
+# File Path
 df = pd.read_csv('data/selected_result_rss.csv')
 sku_id_list = df['sku_id'].unique()
 
